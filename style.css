@@ -1,0 +1,217 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+padding: 20px;
+}
+
+.home-header {
+background-color: darkblue;
+}
+
+.equipment-header {
+background-color: black;
+}
+
+.certification-header {
+background-color: lightpink;
+}
+
+.destination-header {
+background-color: coral;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.index-bg .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: url(https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.equipment-bg .main {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh;
+background-image: url(https://images.unsplash.com/photo-1559076830-911d4a7dcd7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.destinations-bg .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: url(https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#equipment-list {
+  padding-top: 50px;
+}
+
+<style>
+.main-section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+</style>
+
+<div class="main-section">
+  <!-- Main Section for Scuba Diving Equipment -->
+  ...
+</div>
+
+
+.section {
+  padding: 50px;
+}
+
+.text-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info {
+  text-align: center;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.info h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.info a.btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a.enroll-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.section ul {
+display: flex;
+justify-content: center;
+list-style: none;
+margin: 50px 0;
+padding: 0;
+}
+
+.section li {
+width: 30%;
+text-align: left;
+margin: 0 50px;
+}
+
+.section li h3 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.section li p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.section li img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+footer {
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+.home-footer {
+background-color: darkblue;
+}
+
+.equipment-footer {
+background-color: black;
+}
+
+.certification-footer {
+background-color: lightpink;
+}
+
+.destination-footer {
+background-color: coral;
+}
+
+
